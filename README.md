@@ -1,1 +1,1 @@
-# CodeAlpha_Age_Calculator
+This project is a fully responsive Age Calculator built using HTML, CSS, and JavaScript. It allows users to input their birth date and calculates their age in years, months, and days. The calculator dynamically updates and displays the results, providing an intuitive and user-friendly experience.
