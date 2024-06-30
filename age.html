@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="age.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        
+        <div class="input">
+            <input type="date" id="datePicker">
+            <button id="calculate" onclick="getAge()">Calculate</button>
+        </div>
+    
+        <div class="result">
+            <div class="box" id="year">
+                <h1 class="boxHeading" id="yearHeading"></h1>
+                <p>Year</p>
+            </div>
+            
+            <div class="box" id="month">
+                <h1 class="boxHeading" id="monthHeading"></h1>
+                <p>Month</p>
+            </div>
+
+            <div class="box" id="day">
+                <h1 class="boxHeading" id="dayHeading"></h1>
+                <p>Day</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="age.js"></script>
+</body>
+</html>
+
+
+
